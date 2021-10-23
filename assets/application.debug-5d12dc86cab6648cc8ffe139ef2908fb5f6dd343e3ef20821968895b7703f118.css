@@ -1,0 +1,1099 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face {
+  font-family: 'Halvar Breit Md';
+  src: url("HalvarBreit-Md.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Rg';
+  src: url("HalvarBreit-Rg.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* line 16, app/assets/stylesheets/about.scss */
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 34, app/assets/stylesheets/about.scss */
+.ab {
+  width: auto;
+  padding: 133px 60px 0 60px;
+}
+
+/* line 39, app/assets/stylesheets/about.scss */
+.ab h1 {
+  font-family: "Halvar Breit Md", sans-serif;
+  font-size: 80px;
+  line-height: 80px;
+  margin-bottom: 60px;
+  color: black;
+}
+
+/* line 46, app/assets/stylesheets/about.scss */
+.ab h2 {
+  font-family: "Halvar Breit Rg", sans-serif;
+  font-size: 48px;
+  line-height: 56px;
+  margin-top: 0;
+  color: black;
+  margin-bottom: 133px;
+}
+
+/* line 54, app/assets/stylesheets/about.scss */
+.ab h3 {
+  font-family: "Halvar Breit Rg", sans-serif;
+  font-size: 30px;
+  line-height: 35px;
+  margin-top: 0;
+  color: black;
+}
+
+/* line 61, app/assets/stylesheets/about.scss */
+.ab h4 {
+  font-family: "Halvar Breit Rg", sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  color: black;
+  margin: 0;
+}
+
+/* line 68, app/assets/stylesheets/about.scss */
+.heading {
+  height: 680px;
+  background-image: url(cover-7357b8991b568e2c3e64a582c2a617411853abbf2d707adc50898bfd40ab2434.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+/* line 75, app/assets/stylesheets/about.scss */
+.heading h1 {
+  color: #F2F2F2;
+  margin-bottom: 60px;
+  margin-top: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* line 85, app/assets/stylesheets/about.scss */
+.concept h2 {
+  max-width: 1093px;
+}
+
+/* line 90, app/assets/stylesheets/about.scss */
+.research {
+  background-color: #B09CFF;
+}
+
+/* line 92, app/assets/stylesheets/about.scss */
+.research h1 {
+  margin-bottom: 133px;
+}
+
+/* line 95, app/assets/stylesheets/about.scss */
+.research h2 {
+  max-width: 746px;
+}
+
+/* line 98, app/assets/stylesheets/about.scss */
+.research .participants {
+  position: relative;
+  color: #BCF369;
+  margin-left: 0px;
+  padding-bottom: 133px;
+  margin-right: 0;
+}
+
+/* line 108, app/assets/stylesheets/about.scss */
+.per_big {
+  color: #BCF369;
+  font-family: "Halvar Breit Md", sans-serif;
+  font-size: 350px;
+  line-height: 240px;
+  margin-bottom: 60px;
+  margin-left: -34px;
+}
+
+/* line 116, app/assets/stylesheets/about.scss */
+.percent_group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 133px;
+}
+
+/* line 124, app/assets/stylesheets/about.scss */
+.percent .per_small {
+  font-family: "Halvar Breit Md", sans-serif;
+  font-size: 135px;
+  line-height: 90px;
+  margin-bottom: 60px;
+  color: #BCF369;
+}
+
+/* line 132, app/assets/stylesheets/about.scss */
+.conclusion {
+  background-color: #BCF369;
+}
+
+/* line 134, app/assets/stylesheets/about.scss */
+.conclusion h2 {
+  font-family: "Halvar Breit Md", sans-serif;
+  margin-bottom: 60px;
+}
+
+/* line 138, app/assets/stylesheets/about.scss */
+.conclusion h3 {
+  font-family: "Halvar Breit Rg", sans-serif;
+  padding-bottom: 133px;
+  max-width: 783px;
+}
+
+/* line 146, app/assets/stylesheets/about.scss */
+.audience h1 {
+  margin-bottom: 133px;
+}
+
+/* line 149, app/assets/stylesheets/about.scss */
+.audience h2 {
+  margin-bottom: 60px;
+}
+
+/* line 152, app/assets/stylesheets/about.scss */
+.audience h3 {
+  font-family: "Halvar Breit Md", sans-serif;
+}
+
+/* line 156, app/assets/stylesheets/about.scss */
+.audience .st {
+  margin-bottom: 133px;
+}
+
+/* line 161, app/assets/stylesheets/about.scss */
+.el1 {
+  position: absolute;
+  background-image: url(green-c3d5cb806fc0561a8ef70d3d2abdd99eeafbec406c2569c7d81e63ec9b520280.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 565px;
+  height: 210px;
+  top: -10px;
+  z-index: 1;
+}
+
+/* line 173, app/assets/stylesheets/about.scss */
+.el2 {
+  position: absolute;
+  background-image: url(viol-69b44585cfd83c68fd2c0f8d6d74700889f44948b193fa128af3913e465a408c.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 565px;
+  height: 210px;
+  right: 72px;
+  z-index: 1;
+  top: -10px;
+}
+
+/* line 186, app/assets/stylesheets/about.scss */
+.segments {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px 0 60px;
+  height: 412px;
+  padding-top: 42px;
+}
+
+/* line 193, app/assets/stylesheets/about.scss */
+.segments .segment {
+  z-index: 1;
+  display: block;
+}
+
+/* line 199, app/assets/stylesheets/about.scss */
+.possibilities {
+  background-image: url(back_el_possib-0340f169bf05f667f077f34786b085aa28a2b833249c4be20bedcaa96e9c8394.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1323px;
+  background-color: #BCF369;
+}
+
+/* line 206, app/assets/stylesheets/about.scss */
+.possibilities h3 {
+  margin-bottom: 60px;
+}
+
+/* line 209, app/assets/stylesheets/about.scss */
+.possibilities .screeens {
+  width: 841px;
+  height: 950px;
+  background-image: url(screens-822e6d4ee1706fc580aa383279d6c0997ab47ee493e391723ff9434f53dd0df6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: -20px;
+}
+
+/* line 221, app/assets/stylesheets/about.scss */
+.list {
+  max-width: 458px;
+  border-left: 3px solid #BCF369;
+  padding-left: 18px;
+  position: relative;
+  left: 553px;
+  top: -925px;
+}
+
+/* line 230, app/assets/stylesheets/about.scss */
+.ab .possibilities {
+  padding: 0;
+}
+
+/* line 234, app/assets/stylesheets/about.scss */
+.jtbd {
+  position: relative;
+  background-image: url(stories_back-8d92e5b79d8974797997c6ffdd92af1abd315a495f4d408ed538e64ce94a93a9.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1130px;
+  margin-bottom: 60px;
+}
+
+/* line 242, app/assets/stylesheets/about.scss */
+.jtbd h1 {
+  margin-bottom: 30px;
+}
+
+/* line 245, app/assets/stylesheets/about.scss */
+.jtbd .job {
+  position: relative;
+  top: 45px;
+}
+
+/* line 248, app/assets/stylesheets/about.scss */
+.jtbd .job h3 {
+  max-width: 637px;
+}
+
+/* line 252, app/assets/stylesheets/about.scss */
+.jtbd .user {
+  position: relative;
+  left: 784px;
+  top: 302px;
+}
+
+/* line 256, app/assets/stylesheets/about.scss */
+.jtbd .user h1 {
+  position: relative;
+  left: 48px;
+}
+
+/* line 260, app/assets/stylesheets/about.scss */
+.jtbd .user h3 {
+  max-width: 527px;
+}
+
+/* line 266, app/assets/stylesheets/about.scss */
+.filters {
+  position: relative;
+  top: -485px;
+  left: 711px;
+  background-image: url(filtres-a34063e4915cec8cae858d4b9ebbaf4cee735a6e632d26b38abe92e912281384.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 383px;
+}
+
+/* line 278, app/assets/stylesheets/about.scss */
+.unisex {
+  position: relative;
+  top: -561px;
+  left: -48px;
+  background-image: url(unisex-f912ddd59c43542f7caa911604b30f65d9e16d0d63ffc50f1a7f2885bb5f1594.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 691px;
+  height: 709px;
+}
+
+/* line 290, app/assets/stylesheets/about.scss */
+.inspire {
+  background-color: black;
+}
+
+/* line 292, app/assets/stylesheets/about.scss */
+.inspire h2 {
+  color: #F2F2F2;
+  max-width: 644px;
+  margin-bottom: 0;
+  padding-bottom: 133px;
+}
+
+/* line 299, app/assets/stylesheets/about.scss */
+.ab {
+  overflow: hidden;
+}
+@font-face {
+  font-family: 'Halvar Breit Md';
+  src: url("HalvarBreit-Md.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Rg';
+  src: url("HalvarBreit-Rg.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Bd';
+  src: url("HalvarBreit-Bd.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* line 22, app/assets/stylesheets/posts.scss */
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 38, app/assets/stylesheets/posts.scss */
+.h3_titlepost {
+  font-family: "Halvar Breit Md", sans-serif;
+  font-size: 48px;
+  line-height: 56px;
+  margin-left: 60px;
+  margin-bottom: 0;
+  color: black;
+  margin-top: 63px;
+}
+
+/* line 48, app/assets/stylesheets/posts.scss */
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 37px 45px 0 45px;
+}
+
+/* line 52, app/assets/stylesheets/posts.scss */
+.posts .posts_item {
+  display: flex;
+  flex-direction: column;
+  width: 304px;
+  margin: 0 16px 55px 16px;
+}
+
+/* line 59, app/assets/stylesheets/posts.scss */
+.posts .posts_item .artist_name {
+  font-family: "Halvar Breit Md", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  margin-left: 0px;
+  margin-bottom: 0;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 13px;
+}
+
+/* line 66, app/assets/stylesheets/posts.scss */
+.posts .posts_item a {
+  font-family: "Halvar Breit Md", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  margin-left: 0px;
+  margin-bottom: 0;
+  padding: 4px 0px;
+  text-decoration: none;
+  color: #303030;
+  transition: all .4s;
+}
+
+/* line 73, app/assets/stylesheets/posts.scss */
+.posts .posts_item a:nth-of-type(2) {
+  margin-left: 57.46%;
+  color: #B4B4B4;
+  transition: all .4s;
+}
+
+/* line 77, app/assets/stylesheets/posts.scss */
+.posts .posts_item a:nth-of-type(2):hover {
+  color: #303030;
+  transition: all .2s;
+}
+
+/* line 82, app/assets/stylesheets/posts.scss */
+.posts .posts_item a:hover {
+  color: #B09CFF;
+  transition: all .2s;
+}
+
+/* line 90, app/assets/stylesheets/posts.scss */
+.link_newpost {
+  font-family: "Halvar Breit Md", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  margin-left: 60px;
+  margin-bottom: 65px;
+  text-decoration: none;
+  color: #303030 !important;
+  transition: all .4s;
+}
+
+/* line 96, app/assets/stylesheets/posts.scss */
+.link_newpost:hover {
+  color: #B09CFF !important;
+  transition: all .2s;
+}
+
+/* line 101, app/assets/stylesheets/posts.scss */
+.post_extra {
+  height: 100px;
+}
+
+/* line 104, app/assets/stylesheets/posts.scss */
+.post_main_foto {
+  display: inline-block;
+  margin: 47px 30px 71px 60px;
+}
+
+/* line 108, app/assets/stylesheets/posts.scss */
+.post_main_text {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 47px;
+}
+
+/* line 112, app/assets/stylesheets/posts.scss */
+.post_main_text .name_in_post {
+  font-family: "Halvar Breit Md", sans-serif;
+  font-size: 72px;
+  line-height: 69px;
+  margin-left: 0px;
+  margin-bottom: 53px;
+  color: black;
+}
+
+/* line 117, app/assets/stylesheets/posts.scss */
+.post_main_text .filter_block {
+  display: block;
+}
+
+/* line 119, app/assets/stylesheets/posts.scss */
+.post_main_text .filter_block .filter {
+  font-family: "Halvar Breit Rg", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 0px;
+  margin-bottom: 121px;
+  color: black;
+  background: #BCF369;
+  padding: 11px 30px;
+  display: inline-block;
+  margin-right: 13px;
+  border-radius: 60px;
+}
+
+/* line 130, app/assets/stylesheets/posts.scss */
+.post_main_text .characteristics, .post_main_text .brands {
+  font-family: "Halvar Breit Rg", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: 0px;
+  margin-bottom: 53px;
+  color: black;
+  display: block;
+  width: 640px;
+  word-spacing: 13px;
+  width: 550px;
+}
+
+/* line 138, app/assets/stylesheets/posts.scss */
+.post_main_text .characteristics .characteristics_h, .post_main_text .characteristics .brands_h, .post_main_text .brands .characteristics_h, .post_main_text .brands .brands_h {
+  font-family: "Halvar Breit Bd", sans-serif;
+  display: block;
+  margin-bottom: 13px;
+  word-spacing: normal;
+  line-height: 21px;
+}
+
+/* line 147, app/assets/stylesheets/posts.scss */
+.content_title {
+  font-family: "Halvar Breit Md", sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  margin-left: 60px;
+  margin-bottom: 29px;
+  color: black;
+  width: 1060px;
+}
+
+/* line 153, app/assets/stylesheets/posts.scss */
+.content_text {
+  font-family: "Halvar Breit Rg", sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  margin-left: 60px;
+  margin-bottom: 80px;
+  color: black;
+  width: 862px;
+}
+
+/* line 159, app/assets/stylesheets/posts.scss */
+.gallery {
+  margin: 0px 45px 65px 45px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* line 163, app/assets/stylesheets/posts.scss */
+.gallery img {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/* line 168, app/assets/stylesheets/posts.scss */
+.link_newpost_edit {
+  margin-right: 15px;
+}
+
+/* line 171, app/assets/stylesheets/posts.scss */
+.link_newpost_back {
+  margin-left: 15px;
+}
+
+/* line 175, app/assets/stylesheets/posts.scss */
+h4 {
+  font-family: "Halvar Breit Md", sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  color: black;
+  margin-top: 30px;
+}
+
+/* line 181, app/assets/stylesheets/posts.scss */
+.Editing_post {
+  margin-left: 397px;
+  margin-bottom: 60px;
+}
+
+/* line 185, app/assets/stylesheets/posts.scss */
+#notice {
+  display: none;
+}
+
+/* line 188, app/assets/stylesheets/posts.scss */
+.field {
+  margin-left: 397px;
+}
+
+/* line 192, app/assets/stylesheets/posts.scss */
+form input, form select {
+  background: #FFFFFF;
+  border: 1px solid #D6D6D6;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-family: "Halvar Breit Rg", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  width: 368px;
+}
+
+/* line 204, app/assets/stylesheets/posts.scss */
+form .image_area {
+  background: none;
+  border: none;
+}
+
+/* line 208, app/assets/stylesheets/posts.scss */
+form .image_area_small {
+  padding: 2px 16px;
+}
+
+/* line 211, app/assets/stylesheets/posts.scss */
+form .image_area_small2 {
+  padding: 8px 16px 2px 16px;
+}
+
+/* line 214, app/assets/stylesheets/posts.scss */
+form .actions input {
+  background: #B09CFF;
+  border-radius: 0px;
+  color: black;
+  width: auto;
+  margin-left: 397px;
+  margin-top: 50px;
+  transition: all .4s;
+  margin-bottom: 60px;
+}
+
+/* line 223, app/assets/stylesheets/posts.scss */
+form .actions input:hover {
+  background: #BCF369;
+  transition: all .2s;
+  cursor: pointer;
+}
+
+/* line 230, app/assets/stylesheets/posts.scss */
+form textarea {
+  width: 645px;
+  height: 300px;
+  background: #FFFFFF;
+  border: 1px solid #D6D6D6;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-family: "Halvar Breit Rg", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 241, app/assets/stylesheets/posts.scss */
+form .tags_area {
+  width: 368px;
+  padding: 8px 16px 25px 16px;
+  height: auto;
+}
+@font-face {
+  font-family: 'Halvar Breit Md';
+  src: url("HalvarBreit-Md.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* line 12, app/assets/stylesheets/promo.scss */
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 25, app/assets/stylesheets/promo.scss */
+h2 {
+  font-family: "Halvar Breit Md", sans-serif;
+  font-size: 48px;
+  line-height: 56px;
+  margin-top: 10px;
+  color: black;
+}
+
+/* line 31, app/assets/stylesheets/promo.scss */
+h3 {
+  font-family: "Halvar Breit Md", sans-serif;
+  font-size: 24px;
+  line-height: 23px;
+  margin-top: 0px;
+  color: black;
+}
+
+/* line 38, app/assets/stylesheets/promo.scss */
+.section {
+  width: auto;
+  height: 680px;
+  overflow: hidden;
+}
+
+/* line 44, app/assets/stylesheets/promo.scss */
+.first {
+  background-color: #B09CFF;
+  background-image: url(elipses1-2a1027a9a9fe8fa719344fa1b3d8f7b6cf0fcc5d1a40bdef125ed3004b889976.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 50, app/assets/stylesheets/promo.scss */
+.description {
+  display: inline-block;
+  width: 84%;
+}
+
+/* line 53, app/assets/stylesheets/promo.scss */
+.description h2 {
+  margin-left: 208px;
+  margin-top: 228px;
+}
+
+/* line 61, app/assets/stylesheets/promo.scss */
+.learn {
+  background-color: white;
+  background-image: url(elipse2-0f469c99dff905a572859f57f49f6961974536d65aec31ea2b0c6d8a5068c8d6.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+
+/* line 67, app/assets/stylesheets/promo.scss */
+.learn h2 {
+  margin-left: 60px;
+  margin-top: 205px;
+  display: inline-block;
+}
+
+/* line 72, app/assets/stylesheets/promo.scss */
+.learn img {
+  display: inline-block;
+  margin-right: -60px;
+  margin-top: 20px;
+}
+
+/* line 80, app/assets/stylesheets/promo.scss */
+.do {
+  background-image: url(promo_do_background-02af5c97a602acb44a69f0babedf2b0c580fe80ac9dee588a5b9a282682bb208.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: top;
+}
+
+/* line 85, app/assets/stylesheets/promo.scss */
+.do .promo_mockup {
+  background-image: url(promo_mockup-49cc7074eff42eb9a7e2b038a81f6d30e0e5f5fa2c3530d8d89647c3c7b99805.png);
+  background-repeat: no-repeat;
+  background-position: -180px 62px;
+  height: 100%;
+  width: 56%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 95, app/assets/stylesheets/promo.scss */
+.do .facts {
+  margin: 175px -150px 0px 110px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 103, app/assets/stylesheets/promo.scss */
+.facts div {
+  border: #BCF369 solid 2px;
+  border-radius: 60px;
+  padding: 18px 300px 18px 35px;
+  margin-top: -2px;
+}
+
+/* line 110, app/assets/stylesheets/promo.scss */
+.last {
+  height: 450px;
+  background: black;
+  padding: 65px 60px;
+}
+
+/* line 114, app/assets/stylesheets/promo.scss */
+.last h2 {
+  color: white;
+  line-height: 48px;
+  margin-bottom: 46px;
+}
+
+/* line 119, app/assets/stylesheets/promo.scss */
+.last h3 {
+  color: #BCF369;
+  margin-bottom: 24px;
+}
+/* line 2, app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #F5F5F5;
+  color: #333;
+}
+
+/* line 8, app/assets/stylesheets/scaffolds.scss */
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 13, app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 22, app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+
+/* line 29, app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 36, app/assets/stylesheets/scaffolds.scss */
+div.field,
+div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 43, app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 48, app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+/* line 55, app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+/* line 64, app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 68, app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+
+/* line 71, app/assets/stylesheets/scaffolds.scss */
+.header {
+  display: flex;
+  background: white;
+}
+
+/* line 74, app/assets/stylesheets/scaffolds.scss */
+.header ul {
+  display: flex;
+}
+
+/* line 76, app/assets/stylesheets/scaffolds.scss */
+.header ul li {
+  transition: .5s;
+  padding-top: 34px;
+}
+
+/* line 79, app/assets/stylesheets/scaffolds.scss */
+.header ul li a {
+  font-family: 'Halvar Breit Md', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  padding: 0 29px;
+}
+
+/* line 90, app/assets/stylesheets/scaffolds.scss */
+.header h1 {
+  font-family: 'Halvar Breit Md', sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 500;
+  color: black;
+  margin-right: 38px;
+  padding: 21px 60px;
+  display: block;
+}
+
+/* line 101, app/assets/stylesheets/scaffolds.scss */
+.header li:hover {
+  background: #BCF369;
+  cursor: pointer;
+  transition: .2s;
+}
+
+/* line 114, app/assets/stylesheets/scaffolds.scss */
+.futer {
+  height: 128px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 36px 2px 36px 60px;
+}
+
+/* line 120, app/assets/stylesheets/scaffolds.scss */
+.futer p {
+  font-family: "Halvar Breit Md", sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  margin-top: 0px;
+  color: #BCF369;
+}
+
+/* line 125, app/assets/stylesheets/scaffolds.scss */
+.futer ul {
+  display: flex;
+}
+
+/* line 128, app/assets/stylesheets/scaffolds.scss */
+.futer li {
+  font-family: "Halvar Breit Md", sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  margin-top: 0px;
+  margin-right: 58px;
+}
+
+/* line 132, app/assets/stylesheets/scaffolds.scss */
+.futer li a {
+  color: #BCF369;
+  text-decoration: none;
+  transition: .4s;
+}
+
+/* line 140, app/assets/stylesheets/scaffolds.scss */
+.futer li a:hover {
+  color: #B09CFF;
+  transition: .2s;
+}
+/* line 9, app/assets/stylesheets/subscribers.scss */
+.sub_input {
+  font-family: "Halvar Breit Md", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 18px 0px 18px 35px;
+  width: 571px;
+  background: black;
+  border-radius: 60px;
+  border: 2px solid #B09CFF;
+  font-size: 20px;
+  color: #B09CFF;
+  display: block;
+  margin-bottom: 13px;
+}
+
+/* line 22, app/assets/stylesheets/subscribers.scss */
+input.sub_input::placeholder {
+  color: #B09CFF;
+}
+
+/* line 25, app/assets/stylesheets/subscribers.scss */
+.sub_btn {
+  font-family: "Halvar Breit Md", sans-serif;
+  font-size: 24px;
+  line-height: 23px;
+  padding: 18px 191px;
+  background: #B09CFF;
+  border-radius: 60px;
+  border: 2px solid #B09CFF;
+  color: black;
+  transition: .4s;
+  width: auto;
+}
+
+/* line 36, app/assets/stylesheets/subscribers.scss */
+.sub_btn:hover {
+  cursor: pointer;
+  background: #BCF369;
+  border: 2px solid #BCF369;
+  transition: .2s;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+/*# sourceMappingURL=application.css-bd7882c0e2ca596bcdaefceeefe3f62d6687773af0d3fc05ea3b038a5e234306.map */
